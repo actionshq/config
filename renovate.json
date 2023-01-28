@@ -9,5 +9,22 @@
             "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
             "automerge": true
         }
+    ],
+    "hostRules": [
+        {
+            "matchHost": "https://ghcr.io",
+            "hostType": "docker",
+            "username": "oauth",
+            "encrypted": {
+                "password": "wcFMA/xDdHCJBTolAQ//ex29B7HEgOXVFuG0QoBPVShX//Xi6HkOCc1/5q/DOxd2aB0Ej/krttAvghta3KzOzauSAW1q/d4tAZG15JAil1TyugrBMYGx9f1uw1zv8rbx+9aePfzXHdxffH6jBqmgglRBZ96c/oANMowE9j6Ilsbf0+baFhNxMhi0vHfvNMttQFF6PJFADoilOUaU6o9ucSFQbyotgDGJBijG6+gweDvAEoeNuaUb8HshLwHmVLblpBUGW84yjoHmvy+B22ZZpL/uz1CALlaLc8aQKd0COz24zvUuegAhSkLPdUSayU29RD9WjvJfBZKg62x2vPsU/GcdSeez8x3B3h3pQp2NkMvWCSnfuTxqMHwlg47Dn9lzq3Eb+lrw6jb709NcTZP0LLV8S9wZI6fQNPpvLw+gjNEdHarecxqwpq+UvvFwXJ9j9X9YI4Wvj6Gd1eV0/JfHs3u0Oo2k46Nc1IR+20774SOuVLhBJGPP9I1vKrPxk8u6BSGFbgfFPrPuUa/3nYLFiK5+wyvvn9+0fEUFv9eW61ipnPIcFO3Nxcn9ovHsZq0xcHhfNCEDd4Q5YgjmN6RuhnfBK8LNct4z5S11F3gprZOnOFAkMGu5v6rJUknjMGwSFIaaz85iPKhT9h3fl8ImhNS/72kLDPo3fSxK1sIeTebIJUZD8yP0N9yymI2B8yfSeAFH8vjgh0ftus0DagtVci4NdYX2fwss+yx6QFOzj4oe8mdJbyMIYdZnRWJvIQCt7IrMnboZkiaEFuhPxbLRgOfsd6HulSJVrA+dGzdrDWxye1Kz1QBR+HiT86NGloGhKQ/LIaRSXLgf3ZrWMd/b3YS8OR/TiIVL7A"
+            }
+        },
+        {
+            "matchHost": "https://npm.pkg.github.com",
+            "hostType": "npm",
+            "encrypted": {
+                "token": "wcFMA/xDdHCJBTolAQ//ex29B7HEgOXVFuG0QoBPVShX//Xi6HkOCc1/5q/DOxd2aB0Ej/krttAvghta3KzOzauSAW1q/d4tAZG15JAil1TyugrBMYGx9f1uw1zv8rbx+9aePfzXHdxffH6jBqmgglRBZ96c/oANMowE9j6Ilsbf0+baFhNxMhi0vHfvNMttQFF6PJFADoilOUaU6o9ucSFQbyotgDGJBijG6+gweDvAEoeNuaUb8HshLwHmVLblpBUGW84yjoHmvy+B22ZZpL/uz1CALlaLc8aQKd0COz24zvUuegAhSkLPdUSayU29RD9WjvJfBZKg62x2vPsU/GcdSeez8x3B3h3pQp2NkMvWCSnfuTxqMHwlg47Dn9lzq3Eb+lrw6jb709NcTZP0LLV8S9wZI6fQNPpvLw+gjNEdHarecxqwpq+UvvFwXJ9j9X9YI4Wvj6Gd1eV0/JfHs3u0Oo2k46Nc1IR+20774SOuVLhBJGPP9I1vKrPxk8u6BSGFbgfFPrPuUa/3nYLFiK5+wyvvn9+0fEUFv9eW61ipnPIcFO3Nxcn9ovHsZq0xcHhfNCEDd4Q5YgjmN6RuhnfBK8LNct4z5S11F3gprZOnOFAkMGu5v6rJUknjMGwSFIaaz85iPKhT9h3fl8ImhNS/72kLDPo3fSxK1sIeTebIJUZD8yP0N9yymI2B8yfSeAFH8vjgh0ftus0DagtVci4NdYX2fwss+yx6QFOzj4oe8mdJbyMIYdZnRWJvIQCt7IrMnboZkiaEFuhPxbLRgOfsd6HulSJVrA+dGzdrDWxye1Kz1QBR+HiT86NGloGhKQ/LIaRSXLgf3ZrWMd/b3YS8OR/TiIVL7A"
+            }
+        }
     ]
 }
